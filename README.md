@@ -3,7 +3,7 @@ Raspberry PI to tell if robot is charging or out working
 
 A automatic lawn mower ("robot") is one of the best choices to cut your lawn: automatic, continous, powered by electricity, keeps the grass green and the neighbours jealous. It usually does the job good without support but depending on your garden it might get stuck once in a while. There are advanced robots that are connected to internet and can send notifications but if you have a cheaper model you don't have features like that.
 
-With the help of a Raspberry PI and a magnetic contact and this script I got basic functionality working. So now my robot has its own Twitter account (@stikla9) and it sends med notification whenever it goes OUT to work, IN to charge or if its not returning within 75 minutes it sends an EMERGENCY. 
+With the help of a Raspberry PI and a magnetic contact and this script I got basic functionality working. So now my robot has its own Twitter account (@stikla9) and it sends notification whenever it goes OUT to work, IN to charge or if its not returning within 75 minutes it sends an EMERGENCY. 
 
 I use Domoticz to handle the notifications and to add the robot to my home automation system and the web service PushingBox (http://www.pushingbox.com) to update Twitter.
 
